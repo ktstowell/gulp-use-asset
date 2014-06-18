@@ -1,0 +1,15 @@
+{
+  "name": "gulp-use-asset",
+  "version": "0.0.0",
+  "description": "Simply replaces asset references with a given file path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ken Stowell",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-util": "^2.2.17",
+    "through2": "^0.5.1"
+  }
+}
