@@ -4,7 +4,7 @@
   "description": "Simply replaces asset references with a given file path.",
   "main": "index.js",
   "repository": {
-    "type:" "git",
+    "type": "git",
     "url": "git://github.com/ktstowell/gulp-use-asset.git",
   },
   "scripts": {
