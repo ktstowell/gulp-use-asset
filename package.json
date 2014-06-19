@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "description": "Simply replaces asset references with a given file path.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ktstowell/gulp-use-asset.git",
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type" : "git",
+    "url"  : "git://github.com/ktstowell/gulp-use-asset.git"
+  },
   "author": "Ken Stowell",
+  "email" : "stowell.kt@gmail.com",
   "license": "ISC",
   "dependencies": {
     "gulp-util": "^2.2.17",
