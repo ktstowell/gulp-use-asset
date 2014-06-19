@@ -10,6 +10,11 @@
     "type" : "git",
     "url"  : "git://github.com/ktstowell/gulp-use-asset.git"
   },
+  "keywords": [
+    "gulpplugin",
+    "use-asset",
+    "gulp"
+  ],
   "author": "Ken Stowell",
   "email" : "stowell.kt@gmail.com",
   "license": "ISC",
