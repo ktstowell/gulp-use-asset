@@ -58,7 +58,7 @@ Consider:
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <!-- enduse -->
+    <!-- endbuild -->
 
     // App/subAppOne/index.html
     <!-- use:js ../scripts/vendor.js -->
