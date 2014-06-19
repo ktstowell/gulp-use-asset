@@ -1,6 +1,6 @@
 {
   "name": "gulp-use-asset",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simply replaces asset references with a given file path.",
   "main": "index.js",
   "scripts": {

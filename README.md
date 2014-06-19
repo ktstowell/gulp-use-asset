@@ -3,6 +3,8 @@ gulp-use-asset
 
 Define a build asset to use in an HTML comment block.
 
+## Version 0.1.0
+
 ## Installation
 
     npm install gulp-use-asset
@@ -102,7 +104,3 @@ This way the vendor.js file is built only once and the others will simply refere
 ## Issues
 
 Please submit via the issues tab for this repository!
-
-
-
-
