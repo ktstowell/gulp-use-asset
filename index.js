@@ -27,7 +27,7 @@ function gulpUseAsset() {
         startBlock  = /<!--\s*use:\s*(js|css)\s*.*\s+-->/igm, // Find <!-- use blocks
         endBlock  = /<!--\s*enduse\s*-->/igm, // Find <!-- end blocks
         templates = {
-          js: '<scrpt src="*"></script>', // JS template
+          js: '<script src="*"></script>', // JS template
           css: '<link href="*" type="text/css" rel="stylesheet />"' // CSS template
         },
         toStrip = []; // Holds references to the groups that need replacing.
