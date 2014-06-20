@@ -3,7 +3,10 @@ gulp-use-asset
 
 Define a build asset to use in an HTML comment block.
 
-## Version 0.1.0
+## Version 0.1.1
+
+### Patches:
+    * Fixed typo which lead to the creation of a "scrpt" tag.
 
 ## Installation
 
