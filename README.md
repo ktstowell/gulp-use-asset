@@ -93,13 +93,13 @@ This way the vendor.js file is built only once and the others will simply refere
 
 1. Require the module after installing
 
-    var useAsset = require('gulp-use-asset');
+    `var useAsset = require('gulp-use-asset');`
 
 2. Add to your personal build step:
 
-    return gulp.src('path/to/html/file.html')
-      .pipe(useAsset())
-      .pipe(gulp.dest('path/to/dist/dir/'));
+        return gulp.src('path/to/html/file.html')
+          .pipe(useAsset())
+          .pipe(gulp.dest('path/to/dist/dir/'));
 
 3. It's that easy because gulp is awesome. It slides in nicely with the gulp-useref workflow.
 
