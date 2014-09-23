@@ -28,7 +28,7 @@ function gulpUseAsset() {
         endBlock  = /<!--\s*enduse\s*-->/igm, // Find <!-- end blocks
         templates = {
           js: '<script src="*"></script>', // JS template
-          css: '<link href="*" type="text/css" rel="stylesheet />"' // CSS template
+          css: '<link href="*" type="text/css" rel="stylesheet" />' // CSS template
         },
         toStrip = []; // Holds references to the groups that need replacing.
 
