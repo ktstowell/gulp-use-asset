@@ -70,9 +70,25 @@ function gulpUseAsset() {
 
     // Now process toStrip
     for(var i=0; i<toStrip.length; i++) {
-      // Splice it up.
-      lines.splice(toStrip[i].start, ((toStrip[i].end + 1) - toStrip[i].start), templates[toStrip[i].type].replace('*', toStrip[i].path))
+      var currentToStrip = toStrip[i];
+      
+      // Replace the first line of the block
+      lines[currentToStrip.start] = templates[currentToStrip.type].replace('*', currentToStrip.path);
+      
+      // Empty the subsequent lines of the block (by replacing them by "false"),
+      // without removing them from the array, so the indexes do not change
+      for(var j = currentToStrip.start + 1; j < currentToStrip.end + 1; j++) {
+        lines[j] = false;
+      }
     };
+    
+    // Now remove all the "false" lines
+    for (var i = 0; i < lines.length; i++) {
+      if (lines[i] === false) {
+        lines.splice(i, 1);
+        i--;
+      }
+    }
 
     // Re-join lines with line-breaks.
     // This is NOT an htmlmin library.
